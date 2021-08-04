@@ -28,7 +28,7 @@ SELECT
 	END as Nascimento,
 	CASE WHEN fborn = 0 THEN "Nascido no pais de destino"
 	WHEN fborn = 1 THEN "Nascido em outro pais"
-	WHEN fborn = 1 THEN "Desconhecido"
+	WHEN fborn = 99 THEN "Desconhecido"
 	END Nascimento,
 	number as Qtd,
 	sum (number) OVER (PARTITION by regionb) as Total_região_A
