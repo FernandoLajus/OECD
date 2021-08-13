@@ -1,4 +1,4 @@
--- Renomeando Regiões de Origem
+-- Renaming Regions of Birth to their English name 
 
 UPDATE DIOC_2015_16_File_A_1
 set regionb = replace (regionb, "AFRI", "África");
@@ -15,7 +15,7 @@ set regionb = replace (regionb, "SCAC", "América do Sul e Central");
 UPDATE DIOC_2015_16_File_A_1
 set regionb = replace (regionb, "UNK", "Desconhecido");
 
---Renomeando países de destino
+-- Renaming Countries of Destionation to their English name
 
 UPDATE DIOC_2015_16_File_A_1
 set country = replace (country, "Austrália", "Australia");
