@@ -35,7 +35,7 @@ WHERE fborn = 1 or fborn = 99
 
 -- View on table 'DIOC_2015_16_File_C_2' regarding emigration and work 
 
-CREATE VIEW emigracao_trabalho
+CREATE VIEW emigration_employment
 as
 SELECT
   coub as country_of_birth,
